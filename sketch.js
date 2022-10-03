@@ -77,7 +77,7 @@ function draw() {
    path.velocityX = -(6 + 2*distance/150);
    mainCyclist.addAnimation("running",mainRacerImg1);
    mainCyclist.y = World.mouseY;
-  
+  text("pressione espaço para tocar a campainha!",800,288);
    edges= createEdgeSprites();
    mainCyclist .collide(edges);
   
